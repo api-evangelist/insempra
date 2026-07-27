@@ -1,8 +1,26 @@
 aid: insempra
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/insempra.png
 name: Insempra
-description: 'Insempra is a company surfaced as a portfolio company of eqt-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: biotech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Insempra is a biotechnology company that produces sustainable, bio-based
+  ingredients using precision fermentation. It develops alternatives to petrochemical
+  and naturally-extracted ingredients for the beauty and personal care, food and nutrition,
+  and fibers and performance materials industries. Products include a bio-based Phenyl
+  Ethyl Alcohol fragrance ingredient, an Omega-7 biolipid, and Biomelanin (in development),
+  produced from agricultural and forestry waste streams through circular manufacturing.
+  Insempra is a portfolio company of EQT Ventures and is tracked in the API Evangelist
+  network as a company profile; it publishes no public API or developer surface at
+  this time.'
 url: https://raw.githubusercontent.com/api-evangelist/insempra/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Biotech
+- Precision Fermentation
+- Synthetic Biology
+- Sustainability
+- Bio-based Materials
+- Ingredients
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/insempra-domain-security.yml
 - type: Website
   url: https://insempra.bio/
+- type: Blog
+  url: https://insempra.bio/blog/
+- type: PrivacyPolicy
+  url: https://insempra.bio/privacy-policy/
+- type: Support
+  url: https://insempra.bio/contact/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
