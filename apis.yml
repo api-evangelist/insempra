@@ -33,6 +33,9 @@ description: 'Insempra is a biotechnology company that produces sustainable, bio
   network as a company profile; it publishes no public API or developer surface at
   this time.'
 url: https://raw.githubusercontent.com/api-evangelist/insempra/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Insempra is a portfolio company of EQT Ventures and is tracked in the API Evangelist network as a company profile; it publishes no public API or developer surface at this time."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
